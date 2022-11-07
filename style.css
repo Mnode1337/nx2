@@ -300,7 +300,22 @@ header {
 }
 
 .more {
+	color: var(--accent-color);
+	font-size: 18px;
+	border-bottom: 1px solid var(--accent-color);
+	padding-bottom: 5px;
+	transition: all 0.2s;
+}
+
+.more-icon {
+	font-size: 14px;
+	transition: all 0.2s;
 }
 
 .more:hover {
+	color: var(--accent-color-dark);
+}
+
+.more:hover .more-icon {
+	transform: translateX(3px);
 }
